@@ -1,16 +1,24 @@
-# React + Vite
+# Resume Tailor
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Resume Tailor is a modern, client-side React application designed to help users create professional resumes effortlessly. Built with Vite and Tailwind CSS, it features a real-time preview, multiple customizable templates, and instant PDF export capabilities. Users can easily input their details, switch between designs, and download a polished resume in seconds—all directly from their browser.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+*   **Real-Time Preview:** See changes instantly as you type.
+*   **Multiple Templates:** Choose from a variety of professional designs (Template A, B, C).
+*   **PDF Export:** Download your resume as a high-quality PDF with a single click.
+*   **User-Friendly Interface:** Clean and responsive form for entering personal details, experience, education, and skills.
+*   **Client-Side Only:** Privacy-focused; all data remains in your browser.
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+*   React
+*   Vite
+*   Tailwind CSS
+*   jsPDF & html2canvas
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1.  Clone the repository.
+2.  Run `npm install` to install dependencies.
+3.  Run `npm run dev` to start the development server.
